@@ -1,0 +1,28 @@
+{
+  "name": "namaste-react",
+  "version": "1.0.0",
+  "description": "This is Namaste React By Sandesh Hiremath",
+  "homepage": "https://github.com/Sandy134/namaste-react#readme",
+  "bugs": {
+    "url": "https://github.com/Sandy134/namaste-react/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sandy134/namaste-react.git"
+  },
+  "license": "ISC",
+  "author": "Sandesh Hiremath",
+  "scripts": {
+    "start":"parcel index.html",
+    "build":"parcel build index.html",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "parcel": "^2.14.1"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "browsersList": ["Last 2 Chrome version","Last 2 Firefox versions"]
+}
